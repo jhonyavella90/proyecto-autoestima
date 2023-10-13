@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5397F922-04CE-4475-B36F-2F25ADDBE05E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_1._1</RootNamespace>
+    <AssemblyName>Proyecto 1.1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aceptacion social.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aceptacion social.Designer.cs">
+      <DependentUpon>aceptacion social.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autoconcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoconcepto.Designer.cs">
+      <DependentUpon>Autoconcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autoconfianza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoconfianza.Designer.cs">
+      <DependentUpon>Autoconfianza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autoestima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoestima.Designer.cs">
+      <DependentUpon>Autoestima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="concejos acep social.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="concejos acep social.Designer.cs">
+      <DependentUpon>concejos acep social.cs</DependentUpon>
+    </Compile>
+    <Compile Include="concepto_proyecto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="concepto_proyecto.Designer.cs">
+      <DependentUpon>concepto_proyecto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consejos autocon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consejos autocon.Designer.cs">
+      <DependentUpon>consejos autocon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consejos autoconcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consejos autoconcepto.Designer.cs">
+      <DependentUpon>consejos autoconcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consejos autoestima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consejos autoestima.Designer.cs">
+      <DependentUpon>consejos autoestima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="creditos.Designer.cs">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegos.Designer.cs">
+      <DependentUpon>juegos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="percepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="percepciones.Designer.cs">
+      <DependentUpon>percepciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="aceptacion social.resx">
+      <DependentUpon>aceptacion social.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autoconcepto.resx">
+      <DependentUpon>Autoconcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autoconfianza.resx">
+      <DependentUpon>Autoconfianza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autoestima.resx">
+      <DependentUpon>Autoestima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="concejos acep social.resx">
+      <DependentUpon>concejos acep social.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="concepto_proyecto.resx">
+      <DependentUpon>concepto_proyecto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consejos autocon.resx">
+      <DependentUpon>consejos autocon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consejos autoconcepto.resx">
+      <DependentUpon>consejos autoconcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consejos autoestima.resx">
+      <DependentUpon>consejos autoestima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="creditos.resx">
+      <DependentUpon>creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="percepciones.resx">
+      <DependentUpon>percepciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aceptacion sociañ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autoconcepto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consejos 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consejos 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consejos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creditos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percepciones.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo neutro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autoestima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autoconcepto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recurso fondo 2 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
