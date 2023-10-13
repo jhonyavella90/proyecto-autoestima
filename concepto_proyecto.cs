@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Proyecto_1._1
 {
-    public partial class concenpto_proyecto : Form
+    public partial class concepto_proyecto : Form
     {
-        public concenpto_proyecto()
+        public concepto_proyecto()
         {
             InitializeComponent();
+        }
+
+        private void concepto_proyecto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
