@@ -28,64 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.boton_inicio = new System.Windows.Forms.Button();
-            this.boton_juegos = new System.Windows.Forms.Button();
-            this.boton_creditos = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            this.lblHit = new System.Windows.Forms.Label();
+            this.lblMiss = new System.Windows.Forms.Label();
+            this.Mole = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.Mole)).BeginInit();
             this.SuspendLayout();
             // 
-            // boton_inicio
+            // lblHit
             // 
-            this.boton_inicio.Location = new System.Drawing.Point(919, 178);
-            this.boton_inicio.Name = "boton_inicio";
-            this.boton_inicio.Size = new System.Drawing.Size(130, 56);
-            this.boton_inicio.TabIndex = 0;
-            this.boton_inicio.Text = "Inicio";
-            this.boton_inicio.UseVisualStyleBackColor = true;
-            this.boton_inicio.Click += new System.EventHandler(this.button1_Click);
+            this.lblHit.AutoSize = true;
+            this.lblHit.BackColor = System.Drawing.Color.Transparent;
+            this.lblHit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHit.Location = new System.Drawing.Point(978, 37);
+            this.lblHit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHit.Name = "lblHit";
+            this.lblHit.Size = new System.Drawing.Size(65, 37);
+            this.lblHit.TabIndex = 0;
+            this.lblHit.Text = "Hit:";
             // 
-            // boton_juegos
+            // lblMiss
             // 
-            this.boton_juegos.Location = new System.Drawing.Point(919, 264);
-            this.boton_juegos.Name = "boton_juegos";
-            this.boton_juegos.Size = new System.Drawing.Size(130, 56);
-            this.boton_juegos.TabIndex = 1;
-            this.boton_juegos.Text = "Juegos";
-            this.boton_juegos.UseVisualStyleBackColor = true;
+            this.lblMiss.AutoSize = true;
+            this.lblMiss.BackColor = System.Drawing.Color.Transparent;
+            this.lblMiss.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMiss.Location = new System.Drawing.Point(978, 131);
+            this.lblMiss.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMiss.Name = "lblMiss";
+            this.lblMiss.Size = new System.Drawing.Size(91, 37);
+            this.lblMiss.TabIndex = 1;
+            this.lblMiss.Text = "Miss:";
             // 
-            // boton_creditos
+            // Mole
             // 
-            this.boton_creditos.Location = new System.Drawing.Point(919, 356);
-            this.boton_creditos.Name = "boton_creditos";
-            this.boton_creditos.Size = new System.Drawing.Size(130, 56);
-            this.boton_creditos.TabIndex = 2;
-            this.boton_creditos.Text = "Créditos";
-            this.boton_creditos.UseVisualStyleBackColor = true;
-            this.boton_creditos.Click += new System.EventHandler(this.boton_creditos_Click);
+            this.Mole.BackColor = System.Drawing.Color.Transparent;
+            this.Mole.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Mole.Image = global::Proyecto_1._1.Properties.Resources.alive;
+            this.Mole.Location = new System.Drawing.Point(798, 422);
+            this.Mole.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Mole.Name = "Mole";
+            this.Mole.Size = new System.Drawing.Size(250, 254);
+            this.Mole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Mole.TabIndex = 2;
+            this.Mole.TabStop = false;
+            this.Mole.Click += new System.EventHandler(this.gotMole);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 2000;
+            this.timer1.Tick += new System.EventHandler(this.movemole);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.inicio;
+            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.ground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
-            this.Controls.Add(this.boton_creditos);
-            this.Controls.Add(this.boton_juegos);
-            this.Controls.Add(this.boton_inicio);
+            this.ClientSize = new System.Drawing.Size(1204, 735);
+            this.Controls.Add(this.Mole);
+            this.Controls.Add(this.lblMiss);
+            this.Controls.Add(this.lblHit);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Mole)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button boton_inicio;
-        private System.Windows.Forms.Button boton_juegos;
-        private System.Windows.Forms.Button boton_creditos;
+        private System.Windows.Forms.Label lblHit;
+        private System.Windows.Forms.Label lblMiss;
+        private System.Windows.Forms.PictureBox Mole;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
