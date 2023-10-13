@@ -19,7 +19,7 @@ namespace Proyecto_1._1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("The form");
+            MessageBox.Show("El formulario inicia");
         }
     }
 }
