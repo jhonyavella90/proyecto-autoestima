@@ -16,5 +16,10 @@ namespace Proyecto_1._1
         {
             InitializeComponent();
         }
+
+        private void creditos_Load(object sender, EventArgs e)
+        {
+            return;
+        }
     }
 }

@@ -60,6 +60,7 @@
             this.boton_creditos.TabIndex = 2;
             this.boton_creditos.Text = "Créditos";
             this.boton_creditos.UseVisualStyleBackColor = true;
+            this.boton_creditos.Click += new System.EventHandler(this.boton_creditos_Click);
             // 
             // Form1
             // 
@@ -73,6 +74,7 @@
             this.Controls.Add(this.boton_inicio);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

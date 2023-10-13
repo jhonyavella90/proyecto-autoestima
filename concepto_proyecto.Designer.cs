@@ -40,6 +40,7 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "concepto_proyecto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "concepto_proyecto";
             this.Load += new System.EventHandler(this.concepto_proyecto_Load);
             this.ResumeLayout(false);
