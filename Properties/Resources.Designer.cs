@@ -63,6 +63,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _22_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("22-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _46 {
             get {
                 object obj = ResourceManager.GetObject("46", resourceCulture);
@@ -436,6 +446,46 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Percepciones_13_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Percepciones-13-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presentación1_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Presentación1-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presentación1_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Presentación1-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presentación1_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Presentación1-removebg-preview (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Presentación1_removebg_preview__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Presentación1-removebg-preview (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
