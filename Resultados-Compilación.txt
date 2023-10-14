@@ -1,0 +1,6 @@
+﻿Operación Compilar iniciada..
+1>------ Operación Compilar iniciada: Proyecto: proyecto-autoestima, configuración: Debug Any CPU ------
+1>C:\Users\Usuario\Source\Repos\proyecto-autoestima\concepto_proyecto.cs(17,23,17,28): warning CS0414: El campo 'concepto_proyecto.form1' está asignado pero su valor nunca se usa
+1>  proyecto-autoestima -> C:\Users\Usuario\Source\Repos\proyecto-autoestima\bin\Debug\Proyecto 1.1.exe
+========== Compilación: 1 correcto, 0 erróneo, 0 actualizado, 0 omitido ==========
+========= Compilar se inició en 10:24 a. m. y tomó 01,573 segundos ==========

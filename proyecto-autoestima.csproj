@@ -283,8 +283,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dead.png" />
+    <None Include="Resources\sonidopr.wav" />
+    <None Include="Resources\sonidopr.mp3" />
+    <None Include="Resources\Percepciones-13-10-2023.png" />
+    <None Include="Resources\output.png" />
+    <None Include="Resources\Que-aprendiste-13-10-2023 %281%29.gif" />
+    <None Include="Resources\Inicio-29-8-2023.png" />
+    <None Include="Resources\46.png" />
+    <None Include="Resources\Aceptaci-n-Social-13-10-2023.png" />
     <Content Include="Resources\alive.png" />
+    <None Include="Resources\Creditos-13-10-2023.png" />
+    <None Include="Resources\boton_menu-removebg-preview.png" />
+    <None Include="Resources\Autoestima-13-10-2023.png" />
+    <None Include="Resources\Autoconfianza-13-10-2023.png" />
+    <None Include="Resources\Autoconcepto-13-10-2023.png" />
+    <None Include="Resources\boton_menu__1_-removebg-preview.png" />
+    <None Include="Resources\boton menu.png" />
+    <None Include="Resources\boton_menu-removebg-preview1.png" />
+    <None Include="Resources\boton_menu-removebg-preview2.png" />
     <Content Include="Resources\dead.png" />
+    <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <Content Include="Resources\ground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

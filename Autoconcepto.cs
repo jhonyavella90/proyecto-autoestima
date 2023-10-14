@@ -12,9 +12,34 @@ namespace Proyecto_1._1
 {
     public partial class Autoconcepto : Form
     {
+        private Autoconcepto autoconcepto = null;
+        private menu menu = null;   
+        private consejos_autocon consejos_Autocon = null;
+
+
         public Autoconcepto()
         {
             InitializeComponent();
+        }
+
+        private void Autoconcepto_Load(object sender, EventArgs e)
+        {
+            autoconcepto = new Autoconcepto();
+            menu = new menu();  
+            consejos_Autocon = new consejos_autocon();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            consejos_Autocon.Show();
+            consejos_Autocon.Show();
         }
     }
 }

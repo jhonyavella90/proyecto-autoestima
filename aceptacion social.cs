@@ -12,9 +12,30 @@ namespace Proyecto_1._1
 {
     public partial class aceptacion_social : Form
     {
+        private menu menu = null;
+        private concejos_acep_social concejos_Acep_Social = null;
+
         public aceptacion_social()
         {
             InitializeComponent();
+        }
+
+        private void aceptacion_social_Load(object sender, EventArgs e)
+        {
+            concejos_Acep_Social = new concejos_acep_social();
+            menu = new menu();  
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu.Show();    
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            concejos_Acep_Social.Show();
         }
     }
 }

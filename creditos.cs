@@ -12,6 +12,8 @@ namespace Proyecto_1._1
 {
     public partial class creditos : Form
     {
+        inicio inicio = null;
+        creditos Creditos = null;
         public creditos()
         {
             InitializeComponent();
@@ -19,7 +21,14 @@ namespace Proyecto_1._1
 
         private void creditos_Load(object sender, EventArgs e)
         {
-            return;
+           inicio = new inicio();   
+            Creditos = new creditos();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            inicio.Show(); 
         }
     }
 }

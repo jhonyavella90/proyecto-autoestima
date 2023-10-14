@@ -33,6 +33,7 @@
             this.lblMiss = new System.Windows.Forms.Label();
             this.Mole = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Mole)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,10 +42,9 @@
             this.lblHit.AutoSize = true;
             this.lblHit.BackColor = System.Drawing.Color.Transparent;
             this.lblHit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHit.Location = new System.Drawing.Point(978, 37);
-            this.lblHit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHit.Location = new System.Drawing.Point(652, 24);
             this.lblHit.Name = "lblHit";
-            this.lblHit.Size = new System.Drawing.Size(65, 37);
+            this.lblHit.Size = new System.Drawing.Size(44, 25);
             this.lblHit.TabIndex = 0;
             this.lblHit.Text = "Hit:";
             // 
@@ -53,10 +53,9 @@
             this.lblMiss.AutoSize = true;
             this.lblMiss.BackColor = System.Drawing.Color.Transparent;
             this.lblMiss.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMiss.Location = new System.Drawing.Point(978, 131);
-            this.lblMiss.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMiss.Location = new System.Drawing.Point(652, 85);
             this.lblMiss.Name = "lblMiss";
-            this.lblMiss.Size = new System.Drawing.Size(91, 37);
+            this.lblMiss.Size = new System.Drawing.Size(63, 25);
             this.lblMiss.TabIndex = 1;
             this.lblMiss.Text = "Miss:";
             // 
@@ -65,10 +64,9 @@
             this.Mole.BackColor = System.Drawing.Color.Transparent;
             this.Mole.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Mole.Image = global::Proyecto_1._1.Properties.Resources.alive;
-            this.Mole.Location = new System.Drawing.Point(798, 422);
-            this.Mole.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Mole.Location = new System.Drawing.Point(532, 274);
             this.Mole.Name = "Mole";
-            this.Mole.Size = new System.Drawing.Size(250, 254);
+            this.Mole.Size = new System.Drawing.Size(167, 165);
             this.Mole.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Mole.TabIndex = 2;
             this.Mole.TabStop = false;
@@ -77,20 +75,30 @@
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 2000;
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.movemole);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(13, 13);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "volver";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.ground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1204, 735);
+            this.ClientSize = new System.Drawing.Size(803, 478);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Mole);
             this.Controls.Add(this.lblMiss);
             this.Controls.Add(this.lblHit);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -106,6 +114,7 @@
         private System.Windows.Forms.Label lblMiss;
         private System.Windows.Forms.PictureBox Mole;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

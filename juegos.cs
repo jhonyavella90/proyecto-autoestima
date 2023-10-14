@@ -13,6 +13,7 @@ namespace Proyecto_1._1
     public partial class juegos : Form
     {
         private Form1 form_topo = null;
+        private inicio Inicio = null;
         public juegos()
         {
             InitializeComponent();
@@ -21,12 +22,20 @@ namespace Proyecto_1._1
         private void juegos_Load(object sender, EventArgs e)
         {
             form_topo = new Form1();
+            Inicio = new inicio();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             form_topo.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Inicio.Show();
         }
     }
 }

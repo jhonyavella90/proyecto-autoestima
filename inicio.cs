@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace Proyecto_1._1
 {
@@ -15,6 +17,7 @@ namespace Proyecto_1._1
         private concepto_proyecto form2 = null;
         private creditos form3 = null;
         private juegos form_juegos = null;
+        
         public inicio()
         {
             InitializeComponent();
@@ -25,12 +28,16 @@ namespace Proyecto_1._1
             form2 = new concepto_proyecto();
             form3 = new creditos();
             form_juegos = new juegos();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             form2.Show();
+            SoundPlayer soundPlayer = new SoundPlayer();
+            soundPlayer.Play();
+
         }
 
         private void boton_creditos_Click(object sender, EventArgs e)
