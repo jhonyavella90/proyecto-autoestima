@@ -243,6 +243,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap autoconcepto__2__removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("autoconcepto__2_-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Autoconcepto_13_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Autoconcepto-13-10-2023", resourceCulture);

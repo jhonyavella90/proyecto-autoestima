@@ -283,6 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dead.png" />
+    <None Include="Resources\Hasta_que_podamos_volver_a_vernos__1_-removebg-preview.png" />
     <None Include="Resources\Hasta_que_podamos_volver_a_vernos-removebg-preview.png" />
     <None Include="Resources\Percepciones-15-10-2023 %281%29.png" />
     <None Include="Resources\Percepciones-15-10-2023.png" />
@@ -312,6 +313,7 @@
     <None Include="Resources\10.png" />
     <None Include="Resources\Aceptaci-n-Social-15-10-2023.png" />
     <None Include="Resources\Aceptaci-n-Social-15-10-2023 %281%29.png" />
+    <None Include="Resources\aceptacion_social-removebg-preview.png" />
     <Content Include="Resources\alive.png" />
     <None Include="Resources\Creditos-13-10-2023.png" />
     <None Include="Resources\boton_menu-removebg-preview.png" />
@@ -333,6 +335,11 @@
     <None Include="Resources\Autoestima-15-10-2023 %281%29.png" />
     <None Include="Resources\Autoconcepto-15-10-2023 %281%29.png" />
     <None Include="Resources\Autoconfianza-15-10-2023 %281%29.png" />
+    <None Include="Resources\autoconfianzaa__1_-removebg-preview.png" />
+    <None Include="Resources\autoconfianzaa__2_-removebg-preview.png" />
+    <None Include="Resources\autoconcepto-removebg-preview.png" />
+    <None Include="Resources\autoconcepto__1_-removebg-preview.png" />
+    <None Include="Resources\autoconcepto__2_-removebg-preview %281%29.png" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <Content Include="Resources\ground.png" />
