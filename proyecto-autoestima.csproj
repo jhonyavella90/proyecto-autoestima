@@ -283,6 +283,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dead.png" />
+    <None Include="Resources\Percepciones-15-10-2023.png" />
     <None Include="Resources\IMG-20231014-WA0041-removebg-preview.png" />
     <None Include="Resources\IMG-20231014-WA0038-removebg-preview.png" />
     <None Include="Resources\IMG-20231014-WA0039-removebg-preview.png" />
@@ -307,6 +308,7 @@
     <None Include="Resources\22-removebg-preview.png" />
     <None Include="Resources\45.png" />
     <None Include="Resources\10.png" />
+    <None Include="Resources\Aceptaci-n-Social-15-10-2023.png" />
     <Content Include="Resources\alive.png" />
     <None Include="Resources\Creditos-13-10-2023.png" />
     <None Include="Resources\boton_menu-removebg-preview.png" />
@@ -322,6 +324,9 @@
     <None Include="Resources\boton_CONSEJOS__2_-removebg-preview.png" />
     <None Include="Resources\boton_volver-removebg-preview.png" />
     <None Include="Resources\boton_volver__1_-removebg-preview.png" />
+    <None Include="Resources\Autoestima-15-10-2023.png" />
+    <None Include="Resources\Autoconfianza-15-10-2023.png" />
+    <None Include="Resources\Autoconcepto-15-10-2023.png" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <Content Include="Resources\ground.png" />
