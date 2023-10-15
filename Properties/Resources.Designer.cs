@@ -253,6 +253,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_menu__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("boton_menu__2_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_menu_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("boton_menu-removebg-preview", resourceCulture);

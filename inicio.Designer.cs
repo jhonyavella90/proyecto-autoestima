@@ -44,7 +44,7 @@
             this.boton_inicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.boton_inicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton_inicio.Location = new System.Drawing.Point(106, 516);
+            this.boton_inicio.Location = new System.Drawing.Point(863, 66);
             this.boton_inicio.Margin = new System.Windows.Forms.Padding(2);
             this.boton_inicio.Name = "boton_inicio";
             this.boton_inicio.Size = new System.Drawing.Size(250, 123);
@@ -61,7 +61,7 @@
             this.boton_creditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.boton_creditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_creditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton_creditos.Location = new System.Drawing.Point(937, 511);
+            this.boton_creditos.Location = new System.Drawing.Point(880, 294);
             this.boton_creditos.Margin = new System.Windows.Forms.Padding(2);
             this.boton_creditos.Name = "boton_creditos";
             this.boton_creditos.Size = new System.Drawing.Size(261, 132);
@@ -78,7 +78,7 @@
             this.boton_de_juegos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.boton_de_juegos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_de_juegos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton_de_juegos.Location = new System.Drawing.Point(410, 488);
+            this.boton_de_juegos.Location = new System.Drawing.Point(823, 159);
             this.boton_de_juegos.Margin = new System.Windows.Forms.Padding(2);
             this.boton_de_juegos.Name = "boton_de_juegos";
             this.boton_de_juegos.Size = new System.Drawing.Size(492, 178);
@@ -91,7 +91,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Eleva_Tu_Ser_13_10_2023__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(850, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(37, 83);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(368, 406);
             this.pictureBox1.TabIndex = 4;
@@ -108,6 +108,7 @@
             this.Controls.Add(this.boton_creditos);
             this.Controls.Add(this.boton_inicio);
             this.Controls.Add(this.boton_de_juegos);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
