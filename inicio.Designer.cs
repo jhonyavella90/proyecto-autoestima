@@ -113,7 +113,8 @@
             this.Controls.Add(this.boton_de_juegos);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "inicio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -149,7 +149,8 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "consejos_autoestima";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "consejos_autoestima";
             this.Load += new System.EventHandler(this.consejos_autoestima_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

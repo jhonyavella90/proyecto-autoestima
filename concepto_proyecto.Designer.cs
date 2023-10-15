@@ -105,7 +105,8 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "concepto_proyecto";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "concepto_proyecto";
             this.Load += new System.EventHandler(this.concepto_proyecto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

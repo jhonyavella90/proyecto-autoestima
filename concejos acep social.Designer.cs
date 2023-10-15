@@ -160,7 +160,8 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "concejos_acep_social";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "concejos_acep_social";
             this.Load += new System.EventHandler(this.concejos_acep_social_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -73,7 +73,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.recurso_fondo_2;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(674, 197);
+            this.pictureBox1.Location = new System.Drawing.Point(692, 228);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(238, 240);
             this.pictureBox1.TabIndex = 2;
@@ -91,7 +91,8 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "Autoestima";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autoestima";
             this.Load += new System.EventHandler(this.Autoestima_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

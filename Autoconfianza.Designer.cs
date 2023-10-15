@@ -77,7 +77,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "Autoconfianza";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autoconfianza";
             this.Load += new System.EventHandler(this.Autoconfianza_Load);
             this.ResumeLayout(false);

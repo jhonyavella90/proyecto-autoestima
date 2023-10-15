@@ -76,7 +76,8 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "consejos_autoconcepto";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "consejos_autoconcepto";
             this.Load += new System.EventHandler(this.consejos_autoconcepto_Load);
             this.ResumeLayout(false);
