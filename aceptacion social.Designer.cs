@@ -75,6 +75,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "aceptacion_social";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "aceptacion_social";
             this.Load += new System.EventHandler(this.aceptacion_social_Load);
             this.ResumeLayout(false);

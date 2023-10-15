@@ -52,7 +52,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "creditos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "creditos";
             this.Load += new System.EventHandler(this.creditos_Load);
             this.ResumeLayout(false);

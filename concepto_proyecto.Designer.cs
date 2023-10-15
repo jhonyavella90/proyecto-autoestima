@@ -71,7 +71,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "concepto_proyecto";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "concepto_proyecto";
             this.Load += new System.EventHandler(this.concepto_proyecto_Load);
             this.ResumeLayout(false);

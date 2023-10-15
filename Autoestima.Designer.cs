@@ -89,6 +89,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.Name = "Autoestima";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Autoestima";
             this.Load += new System.EventHandler(this.Autoestima_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

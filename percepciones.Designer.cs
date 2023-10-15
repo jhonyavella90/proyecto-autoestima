@@ -54,6 +54,7 @@
             this.ClientSize = new System.Drawing.Size(1308, 729);
             this.Controls.Add(this.button1);
             this.Name = "percepciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "percepciones";
             this.Load += new System.EventHandler(this.percepciones_Load);
             this.ResumeLayout(false);

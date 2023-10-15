@@ -67,6 +67,7 @@
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "consejos_autocon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "consejos_autocon";
             this.Load += new System.EventHandler(this.consejos_autocon_Load);
             this.ResumeLayout(false);

@@ -146,6 +146,7 @@
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "menu";
             this.Load += new System.EventHandler(this.menu_Load);
             this.ResumeLayout(false);
