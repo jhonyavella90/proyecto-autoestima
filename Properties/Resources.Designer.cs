@@ -183,6 +183,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Aceptaci_n_Social_15_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Aceptaci-n-Social-15-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aceptacion_sociañ {
             get {
                 object obj = ResourceManager.GetObject("aceptacion sociañ", resourceCulture);
@@ -233,6 +243,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Autoconcepto_15_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Autoconcepto-15-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap autoconcepto1 {
             get {
                 object obj = ResourceManager.GetObject("autoconcepto1", resourceCulture);
@@ -263,6 +283,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Autoconfianza_15_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Autoconfianza-15-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Autoestima {
             get {
                 object obj = ResourceManager.GetObject("Autoestima", resourceCulture);
@@ -286,6 +316,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Autoestima_15_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Autoestima-15-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Autoestima_15_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Autoestima-15-10-2023 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,6 +543,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hasta_que_podamos_volver_a_vernos_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Hasta_que_podamos_volver_a_vernos-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMG_20231014_WA0038_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("IMG-20231014-WA0038-removebg-preview", resourceCulture);
@@ -626,6 +676,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Percepciones_15_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Percepciones-15-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Percepciones_15_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Percepciones-15-10-2023 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

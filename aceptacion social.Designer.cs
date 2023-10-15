@@ -71,11 +71,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Aceptaci_n_Social_15_10_2023;
+            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Aceptaci_n_Social_15_10_2023__1_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(191, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(392, 186);
+            this.pictureBox1.Size = new System.Drawing.Size(411, 203);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
