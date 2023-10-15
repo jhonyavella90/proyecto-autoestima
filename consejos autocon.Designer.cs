@@ -41,9 +41,9 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 643);
+            this.button1.Location = new System.Drawing.Point(12, 625);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 74);
+            this.button1.Size = new System.Drawing.Size(166, 92);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -54,6 +54,8 @@
             this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu_removebg_preview1;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(-12, -3);
             this.button2.Name = "button2";
@@ -66,12 +68,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.consejos_2;
+            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources._45;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1308, 729);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DoubleBuffered = true;
             this.Name = "consejos_autocon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "consejos_autocon";

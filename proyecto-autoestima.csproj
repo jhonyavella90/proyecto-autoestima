@@ -283,6 +283,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dead.png" />
+    <None Include="Resources\Tarjeta_agradecimiento_orgánica_rojo_verde__1_-removebg-preview.png" />
+    <None Include="Resources\Tarjeta_agradecimiento_orgánica_rojo_verde-removebg-preview.png" />
+    <None Include="Resources\pregunta-removebg-preview.png" />
     <None Include="Resources\Presentación1-removebg-preview %283%29.png" />
     <None Include="Resources\Presentación1-removebg-preview %282%29.png" />
     <None Include="Resources\Presentación1-removebg-preview %281%29.png" />
@@ -296,6 +299,7 @@
     <None Include="Resources\46.png" />
     <None Include="Resources\Aceptaci-n-Social-13-10-2023.png" />
     <None Include="Resources\22-removebg-preview.png" />
+    <None Include="Resources\45.png" />
     <Content Include="Resources\alive.png" />
     <None Include="Resources\Creditos-13-10-2023.png" />
     <None Include="Resources\boton_menu-removebg-preview.png" />
@@ -310,6 +314,7 @@
     <None Include="Resources\boton_CONSEJOS__1_-removebg-preview.png" />
     <None Include="Resources\boton_CONSEJOS__2_-removebg-preview.png" />
     <None Include="Resources\boton_volver-removebg-preview.png" />
+    <None Include="Resources\boton_volver__1_-removebg-preview.png" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <Content Include="Resources\ground.png" />

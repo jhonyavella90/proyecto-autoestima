@@ -73,6 +73,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _45 {
+            get {
+                object obj = ResourceManager.GetObject("45", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _46 {
             get {
                 object obj = ResourceManager.GetObject("46", resourceCulture);
@@ -313,6 +323,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap boton_volver__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("boton_volver__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton_volver_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("boton_volver-removebg-preview", resourceCulture);
@@ -493,6 +513,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pregunta_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pregunta-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Presentación1_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Presentación1-removebg-preview", resourceCulture);
@@ -606,6 +636,26 @@ namespace Proyecto_1._1.Properties {
         internal static System.IO.UnmanagedMemoryStream sonidopr {
             get {
                 return ResourceManager.GetStream("sonidopr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tarjeta_agradecimiento_orgánica_rojo_verde__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Tarjeta_agradecimiento_orgánica_rojo_verde__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tarjeta_agradecimiento_orgánica_rojo_verde_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Tarjeta_agradecimiento_orgánica_rojo_verde-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

@@ -111,7 +111,7 @@
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(749, 515);

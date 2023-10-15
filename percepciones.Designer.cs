@@ -37,6 +37,8 @@
             this.button1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu_removebg_preview1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(-14, -2);
             this.button1.Name = "button1";
@@ -55,7 +57,7 @@
             this.Controls.Add(this.button1);
             this.Name = "percepciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "percepciones";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.percepciones_Load);
             this.ResumeLayout(false);
 
