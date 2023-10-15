@@ -193,6 +193,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aceptacion_social_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("aceptacion_social-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aceptacion_sociañ {
             get {
                 object obj = ResourceManager.GetObject("aceptacion sociañ", resourceCulture);
@@ -223,6 +233,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap autoconcepto__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("autoconcepto__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Autoconcepto_13_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Autoconcepto-13-10-2023", resourceCulture);
@@ -246,6 +266,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Autoconcepto_15_10_2023__1_ {
             get {
                 object obj = ResourceManager.GetObject("Autoconcepto-15-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap autoconcepto_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("autoconcepto-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -286,6 +316,26 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Autoconfianza_15_10_2023__1_ {
             get {
                 object obj = ResourceManager.GetObject("Autoconfianza-15-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap autoconfianzaa__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("autoconfianzaa__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap autoconfianzaa__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("autoconfianzaa__2_-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -536,6 +586,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap ground {
             get {
                 object obj = ResourceManager.GetObject("ground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hasta_que_podamos_volver_a_vernos__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Hasta_que_podamos_volver_a_vernos__1_-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
