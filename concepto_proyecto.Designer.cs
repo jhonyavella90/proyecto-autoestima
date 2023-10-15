@@ -68,6 +68,7 @@
             this.ClientSize = new System.Drawing.Size(1308, 729);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "concepto_proyecto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

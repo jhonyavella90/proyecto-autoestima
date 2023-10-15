@@ -39,9 +39,10 @@
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu_removebg_preview;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(105, 12);
+            this.button1.Location = new System.Drawing.Point(-1, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(183, 108);
             this.button1.TabIndex = 0;
@@ -51,16 +52,16 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu__1__removebg_preview;
+            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_CONSEJOS__1__removebg_preview;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1154, 1);
+            this.button2.Location = new System.Drawing.Point(1115, 7);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 92);
+            this.button2.Size = new System.Drawing.Size(197, 116);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -70,7 +71,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.recurso_fondo_2;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(571, 189);
+            this.pictureBox1.Location = new System.Drawing.Point(674, 197);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(238, 240);
             this.pictureBox1.TabIndex = 2;

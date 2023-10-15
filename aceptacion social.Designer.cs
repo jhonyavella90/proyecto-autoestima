@@ -39,7 +39,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(108, 19);
+            this.button1.Location = new System.Drawing.Point(-5, -4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(206, 106);
             this.button1.TabIndex = 0;
@@ -49,16 +49,17 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu__1__removebg_preview;
+            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_CONSEJOS__1__removebg_preview;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1114, 113);
+            this.button2.Location = new System.Drawing.Point(1041, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 73);
+            this.button2.Size = new System.Drawing.Size(224, 123);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);

@@ -49,9 +49,9 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(74, -7);
+            this.button2.Location = new System.Drawing.Point(-12, -3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 91);
+            this.button2.Size = new System.Drawing.Size(190, 106);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -65,6 +65,7 @@
             this.ClientSize = new System.Drawing.Size(1308, 729);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "consejos_autocon";
             this.Text = "consejos_autocon";
             this.Load += new System.EventHandler(this.consejos_autocon_Load);

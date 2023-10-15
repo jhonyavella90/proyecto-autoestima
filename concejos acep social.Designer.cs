@@ -39,7 +39,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Location = new System.Drawing.Point(-12, -7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(207, 105);
             this.button1.TabIndex = 0;
@@ -65,6 +65,7 @@
             this.ClientSize = new System.Drawing.Size(1308, 729);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "concejos_acep_social";
             this.Text = "concejos_acep_social";

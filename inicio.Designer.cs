@@ -40,6 +40,7 @@
             this.boton_inicio.BackColor = System.Drawing.Color.Transparent;
             this.boton_inicio.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Inicio_29_8_2023;
             this.boton_inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_inicio.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.boton_inicio.FlatAppearance.BorderSize = 0;
             this.boton_inicio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.boton_inicio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -57,9 +58,10 @@
             this.boton_creditos.BackColor = System.Drawing.Color.Transparent;
             this.boton_creditos.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Creditos_13_10_2023;
             this.boton_creditos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_creditos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.boton_creditos.FlatAppearance.BorderSize = 0;
-            this.boton_creditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.boton_creditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_creditos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.boton_creditos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.boton_creditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_creditos.Location = new System.Drawing.Point(880, 294);
             this.boton_creditos.Margin = new System.Windows.Forms.Padding(2);
@@ -74,9 +76,10 @@
             this.boton_de_juegos.BackColor = System.Drawing.Color.Transparent;
             this.boton_de_juegos.BackgroundImage = global::Proyecto_1._1.Properties.Resources.output;
             this.boton_de_juegos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_de_juegos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.boton_de_juegos.FlatAppearance.BorderSize = 0;
-            this.boton_de_juegos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.boton_de_juegos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_de_juegos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.boton_de_juegos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
             this.boton_de_juegos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_de_juegos.Location = new System.Drawing.Point(823, 159);
             this.boton_de_juegos.Margin = new System.Windows.Forms.Padding(2);
