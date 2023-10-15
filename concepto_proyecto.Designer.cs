@@ -85,7 +85,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Tarjeta_agradecimiento_orgánica_rojo_verde__1__removebg_preview;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(226, 218);
+            this.pictureBox2.Location = new System.Drawing.Point(218, 229);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(816, 499);
             this.pictureBox2.TabIndex = 3;
