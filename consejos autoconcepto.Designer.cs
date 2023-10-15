@@ -48,12 +48,18 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1199, 688);
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_volver_removebg_preview;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(-1, 646);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 29);
+            this.button2.Size = new System.Drawing.Size(151, 83);
             this.button2.TabIndex = 1;
-            this.button2.Text = "volver";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // consejos_autoconcepto

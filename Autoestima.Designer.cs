@@ -44,7 +44,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(-1, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 108);
+            this.button1.Size = new System.Drawing.Size(200, 122);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

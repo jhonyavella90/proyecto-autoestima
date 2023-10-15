@@ -1,0 +1,5 @@
+﻿Operación Compilar iniciada..
+1>------ Operación Compilar iniciada: Proyecto: proyecto-autoestima, configuración: Debug Any CPU ------
+1>  proyecto-autoestima -> C:\Users\Usuario\source\repos\proyecto-autoestima\bin\Debug\Proyecto 1.1.exe
+========== Compilación: 1 correcto, 0 erróneo, 0 actualizado, 0 omitido ==========
+========= Compilar se inició en 9:50 p. m. y tomó 01,089 segundos ==========

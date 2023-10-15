@@ -34,12 +34,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1197, 687);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_volver_removebg_preview;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(12, 643);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 30);
+            this.button1.Size = new System.Drawing.Size(166, 74);
             this.button1.TabIndex = 0;
-            this.button1.Text = "volver";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
