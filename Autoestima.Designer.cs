@@ -50,12 +50,19 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1185, 669);
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_menu__1__removebg_preview;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(1154, 1);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 48);
+            this.button2.Size = new System.Drawing.Size(170, 92);
             this.button2.TabIndex = 1;
-            this.button2.Text = "continuar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
