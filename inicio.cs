@@ -35,9 +35,6 @@ namespace Proyecto_1._1
         {
             this.Hide();
             form2.Show();
-            SoundPlayer soundPlayer = new SoundPlayer();
-            soundPlayer.Play();
-
         }
 
         private void boton_creditos_Click(object sender, EventArgs e)
