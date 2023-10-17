@@ -31,7 +31,7 @@ namespace Proyecto_1._1
             {
                 case 1:
                     Mole.Left = 80;
-                    Mole.Top = 302;
+                    Mole.Top = 170;
                     break;
                 case 2:
                     Mole.Left = 302;
