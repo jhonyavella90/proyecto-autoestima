@@ -282,7 +282,6 @@
     <None Include="Resources\76.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dead.png" />
     <None Include="Resources\Hasta_que_podamos_volver_a_vernos__1_-removebg-preview.png" />
     <None Include="Resources\Hasta_que_podamos_volver_a_vernos-removebg-preview.png" />
     <None Include="Resources\Percepciones-15-10-2023 %281%29.png" />
