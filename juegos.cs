@@ -23,19 +23,18 @@ namespace Proyecto_1._1
         {
             form_topo = new Form1();
             Inicio = new inicio();
-            
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            form_topo.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void boton_volver_Click(object sender, EventArgs e)
         {
             this.Hide();
             Inicio.Show();
+        }
+
+        private void boton_topo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_topo.Show();
         }
     }
 }

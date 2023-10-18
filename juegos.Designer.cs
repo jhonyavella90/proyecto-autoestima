@@ -28,60 +28,96 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.boton_volver = new System.Windows.Forms.Button();
+            this.boton_topo = new System.Windows.Forms.Button();
+            this.boton_juego2 = new System.Windows.Forms.Button();
+            this.boton_juego3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // boton_volver
             // 
-            this.button1.Location = new System.Drawing.Point(535, 154);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(524, 156);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Topo";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.boton_volver.BackColor = System.Drawing.Color.Transparent;
+            this.boton_volver.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_volver_removebg_preview;
+            this.boton_volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_volver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_volver.FlatAppearance.BorderSize = 0;
+            this.boton_volver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_volver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_volver.Location = new System.Drawing.Point(3, 12);
+            this.boton_volver.Name = "boton_volver";
+            this.boton_volver.Size = new System.Drawing.Size(90, 56);
+            this.boton_volver.TabIndex = 4;
+            this.boton_volver.UseVisualStyleBackColor = false;
+            this.boton_volver.Click += new System.EventHandler(this.boton_volver_Click);
             // 
-            // button2
+            // boton_topo
             // 
-            this.button2.Location = new System.Drawing.Point(535, 315);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(524, 154);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.boton_topo.BackColor = System.Drawing.Color.Transparent;
+            this.boton_topo.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_juegos;
+            this.boton_topo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_topo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_topo.FlatAppearance.BorderSize = 0;
+            this.boton_topo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_topo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_topo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_topo.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_topo.Location = new System.Drawing.Point(303, 108);
+            this.boton_topo.Name = "boton_topo";
+            this.boton_topo.Size = new System.Drawing.Size(243, 56);
+            this.boton_topo.TabIndex = 5;
+            this.boton_topo.Text = "Jugar \"Atrapa al topo\"";
+            this.boton_topo.UseVisualStyleBackColor = false;
+            this.boton_topo.Click += new System.EventHandler(this.boton_topo_Click);
             // 
-            // button3
+            // boton_juego2
             // 
-            this.button3.Location = new System.Drawing.Point(535, 475);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(524, 155);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.boton_juego2.BackColor = System.Drawing.Color.Transparent;
+            this.boton_juego2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_juegos;
+            this.boton_juego2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_juego2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_juego2.FlatAppearance.BorderSize = 0;
+            this.boton_juego2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_juego2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_juego2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_juego2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_juego2.Location = new System.Drawing.Point(303, 205);
+            this.boton_juego2.Name = "boton_juego2";
+            this.boton_juego2.Size = new System.Drawing.Size(243, 56);
+            this.boton_juego2.TabIndex = 6;
+            this.boton_juego2.Text = "Jugar \"Juego 2\"";
+            this.boton_juego2.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // boton_juego3
             // 
-            this.button4.Location = new System.Drawing.Point(13, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 56);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Volver";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.boton_juego3.BackColor = System.Drawing.Color.Transparent;
+            this.boton_juego3.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_juegos;
+            this.boton_juego3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_juego3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_juego3.FlatAppearance.BorderSize = 0;
+            this.boton_juego3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_juego3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_juego3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_juego3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_juego3.Location = new System.Drawing.Point(303, 302);
+            this.boton_juego3.Name = "boton_juego3";
+            this.boton_juego3.Size = new System.Drawing.Size(243, 56);
+            this.boton_juego3.TabIndex = 7;
+            this.boton_juego3.Text = "Jugar \"Juego 3\"";
+            this.boton_juego3.UseVisualStyleBackColor = false;
             // 
             // juegos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1308, 729);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.fondo_juegos;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(856, 508);
+            this.Controls.Add(this.boton_juego3);
+            this.Controls.Add(this.boton_juego2);
+            this.Controls.Add(this.boton_topo);
+            this.Controls.Add(this.boton_volver);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "juegos";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -93,10 +129,9 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button boton_volver;
+        private System.Windows.Forms.Button boton_topo;
+        private System.Windows.Forms.Button boton_juego2;
+        private System.Windows.Forms.Button boton_juego3;
     }
 }
