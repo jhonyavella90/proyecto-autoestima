@@ -62,7 +62,7 @@
             this.boton_topo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_topo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_topo.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_topo.Location = new System.Drawing.Point(303, 108);
+            this.boton_topo.Location = new System.Drawing.Point(319, 97);
             this.boton_topo.Name = "boton_topo";
             this.boton_topo.Size = new System.Drawing.Size(243, 56);
             this.boton_topo.TabIndex = 5;
@@ -81,7 +81,7 @@
             this.boton_juego2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_juego2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_juego2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_juego2.Location = new System.Drawing.Point(303, 205);
+            this.boton_juego2.Location = new System.Drawing.Point(319, 205);
             this.boton_juego2.Name = "boton_juego2";
             this.boton_juego2.Size = new System.Drawing.Size(243, 56);
             this.boton_juego2.TabIndex = 6;
@@ -99,7 +99,7 @@
             this.boton_juego3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_juego3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_juego3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_juego3.Location = new System.Drawing.Point(303, 302);
+            this.boton_juego3.Location = new System.Drawing.Point(319, 311);
             this.boton_juego3.Name = "boton_juego3";
             this.boton_juego3.Size = new System.Drawing.Size(243, 56);
             this.boton_juego3.TabIndex = 7;
