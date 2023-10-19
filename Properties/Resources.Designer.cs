@@ -733,6 +733,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap inicio_eleva_tu_ser {
+            get {
+                object obj = ResourceManager.GetObject("inicio_eleva_tu_ser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
@@ -935,6 +945,56 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Tarjeta_agradecimiento_orgánica_rojo_verde_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Tarjeta_agradecimiento_orgánica_rojo_verde-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titulo_aceptacion_social {
+            get {
+                object obj = ResourceManager.GetObject("titulo_aceptacion_social", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titulo_autoconcepto {
+            get {
+                object obj = ResourceManager.GetObject("titulo_autoconcepto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titulo_autoconfianza {
+            get {
+                object obj = ResourceManager.GetObject("titulo_autoconfianza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titulo_autoestima {
+            get {
+                object obj = ResourceManager.GetObject("titulo_autoestima", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap titulo_percepciones {
+            get {
+                object obj = ResourceManager.GetObject("titulo_percepciones", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
