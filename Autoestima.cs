@@ -20,7 +20,6 @@ namespace Proyecto_1._1
 
         public Autoestima()
         {
-            //this.SetStyle(ControlStyles.SupportsTransparentBackColor, true);
             InitializeComponent();
         }
 
@@ -30,7 +29,6 @@ namespace Proyecto_1._1
             menu = new menu();
             autoText = label1.Text;
             label1.Text = "";
-            //textBox1.BackColor = Color.Transparent;
             timer1.Enabled = true;
         }
 
