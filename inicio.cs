@@ -48,5 +48,11 @@ namespace Proyecto_1._1
             this.Hide();
             form_juegos.Show();
         }
+
+        private void inicio_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Close the application.
+            Application.Exit();
+        }
     }
 }

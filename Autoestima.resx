@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>la autoestima es la valoración que una persona hace de sí misma. Esta valoración puede ser positiva o negativa, y se basa en una serie de factores, como las experiencias personales, las relaciones con los demás, y las creencias y valores que la persona tiene sobre sí misma.
+
+Una persona con una autoestima alta, Se siente capaz, valiosa y merecedora de amor y respeto.</value>
+  </data>
 </root>
