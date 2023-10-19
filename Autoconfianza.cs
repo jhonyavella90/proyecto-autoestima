@@ -15,9 +15,11 @@ namespace Proyecto_1._1
         private menu menu=null;
         private consejos_autocon consejos_Autocon = null;
         private Autoconfianza autoconfianza = null;
-        private string autoText = "";
-
-
+        private string autoText1 = "";
+        private string autoText2 = "";
+        private Label[] mainLabels;
+        private string[] originalTexts;
+        private int labelCount = 0;
 
         public Autoconfianza()
         {
@@ -35,14 +37,17 @@ namespace Proyecto_1._1
             autoconfianza = new Autoconfianza();
             menu = new menu();
             consejos_Autocon = new consejos_autocon();
-            pictureBox1.Image = Image.FromFile(@"C:\Users\Usuario\source\repos\proyecto-autoestima\autoconfi.gif");
-            pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
-            autoText = label1.Text;
+            mainLabels = new Label[2];
+            originalTexts = new string[2];
+            originalTexts[0] = label1.Text;
+            originalTexts[1] = label2.Text;
             label1.Text = "";
-            timer1.Enabled = true;
-            autoText = label2.Text;
             label2.Text = "";
-
+            mainLabels[0] = label1;
+            mainLabels[1] = label2;
+            //autoText1 = label1.Text;
+            //autoText2 = label2.Text;
+            timer1.Enabled = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,14 +58,32 @@ namespace Proyecto_1._1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int currentLength = label2.Text.Length;
-            label1.Text += autoText[currentLength];
+            //int currentLength1 = label1.Text.Length;
+            //int currentLength2 = label2.Text.Length;
 
-            label2.Text += autoText[currentLength];
-            if (label1.Text == autoText)
+            //if (currentLength1 < autoText1.Length)
+            //{
+            //    label1.Text += autoText1[currentLength1];
+            //}
+
+            //if (currentLength2 < autoText2.Length)
+            //{
+            //    label2.Text += autoText2[currentLength2];
+            //}
+
+            //if (label1.Text == autoText1 && label2.Text == autoText2)
+            //{
+            //    timer1.Stop();
+            //}
+
+            int currentLength1 = mainLabels[labelCount].Text.Length;
+            mainLabels[labelCount].Text += originalTexts[labelCount][currentLength1];
+            if (mainLabels[labelCount].Text == originalTexts[labelCount])
             {
                 timer1.Stop();
-
+                labelCount += 1;
+                if (labelCount == mainLabels.Length) return;
+                timer1.Start();
             }
         }
     }
