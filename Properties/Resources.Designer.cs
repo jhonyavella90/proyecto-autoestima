@@ -503,6 +503,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cartel_1_vacio {
+            get {
+                object obj = ResourceManager.GetObject("cartel_1_vacio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap consejos {
             get {
                 object obj = ResourceManager.GetObject("consejos", resourceCulture);
