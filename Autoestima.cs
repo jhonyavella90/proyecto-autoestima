@@ -30,6 +30,7 @@ namespace Proyecto_1._1
             autoText = label1.Text;
             label1.Text = "";
             timer1.Enabled = true;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

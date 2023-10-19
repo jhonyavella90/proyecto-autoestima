@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +15,8 @@ namespace Proyecto_1._1
     {
         private percepciones Percepciones = null;
         private menu menu= null;
+        private string autoText = "";
+
 
 
         public percepciones()
@@ -25,6 +28,12 @@ namespace Proyecto_1._1
         {
             Percepciones = new percepciones();
             menu = new menu();
+            autoText = label1.Text;
+            label1.Text = "";
+            timer1.Enabled = true;
+            pictureBox1.Image = Image.FromFile(@"C:\Users\Usuario\source\repos\proyecto-autoestima\tituloacep.gif");
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
 
         }
 
@@ -32,6 +41,19 @@ namespace Proyecto_1._1
         {
             this.Hide();
             menu.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            int currentLength = label1.Text.Length;
+
+            label1.Text += autoText[currentLength];
+
+
+            if (label1.Text == autoText)
+            {
+                timer1.Stop();
+            }
         }
     }
 }
