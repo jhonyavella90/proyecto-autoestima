@@ -15,8 +15,8 @@ namespace Proyecto_1._1
         private menu menu=null;
         private consejos_autocon consejos_Autocon = null;
         private Autoconfianza autoconfianza = null;
-        private string autoText1 = "";
-        private string autoText2 = "";
+        //private string autoText1 = "";
+        //private string autoText2 = "";
         private Label[] mainLabels;
         private string[] originalTexts;
         private int labelCount = 0;
