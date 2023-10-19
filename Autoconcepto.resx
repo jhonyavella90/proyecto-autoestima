@@ -117,4 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>El autoconcepto es la imagen que
+tenemos de nosotros mismos,
+es decir, la forma en que nos percibimos,
+pensamos y sentimos
+sobre nosotros mismos. 
+Se trata de una construcción compleja
+que se va formando a lo largo de la vida,
+a partir de nuestras experiencias, 
+relaciones sociales y aprendizajes.
+
+El autoconcepto es la idea que tenemos
+de nosotros mismos y está relacionado
+con la autoestima pero son cuestiones 
+diferentes. Incluye desde la 
+identidad a la imagen
+física y condiciona 
+nuestros comportamientos,
+decisiones y actitudes ante las
+vicisitudes de la vida.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>El concepto principal básico
+del autoconcepto
+es que es una representación
+mental de nosotros mismos. 
+Esta representación incluye nuestros
+pensamientos, sentimientos, 
+creencias, valores y experiencias. 
+El autoconcepto es 
+importante porque nos 
+ayuda a entendernos
+a nosotros mismos
+ y a interactuar con el mundo de 
+una manera significativa.</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>29, 18</value>
+  </metadata>
 </root>

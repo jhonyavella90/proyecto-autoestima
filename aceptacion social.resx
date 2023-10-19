@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>La aceptación social es el sentimiento
+de ser aceptado y valorado por los demás.
+Es un concepto complejo que puede ser
+definido de diferentes maneras,
+pero en general se refiere a la
+sensación de pertenecer
+a un grupo o comunidad.
+
+
+El concepto principal básico
+de la aceptación social es el de la pertenencia.
+ Las personas necesitan sentirse 
+parte de algo más grande que ellas mismas.
+La aceptación social les proporciona
+ un sentido de identidad y propósito.
+</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
