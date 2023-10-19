@@ -15,7 +15,10 @@ namespace Proyecto_1._1
         private Autoconcepto autoconcepto = null;
         private menu menu = null;   
         private consejos_autocon consejos_Autocon = null;
-        private string autoText = "";
+        //private string autoText = "";
+        private Label[] mainLabels;
+        private string[] originalTexts;
+        private int labelCount = 0;
 
 
         public Autoconcepto()
@@ -28,13 +31,15 @@ namespace Proyecto_1._1
             autoconcepto = new Autoconcepto();
             menu = new menu();  
             consejos_Autocon = new consejos_autocon();
-            pictureBox1.Image = Image.FromFile(@"C:\Users\Usuario\source\repos\proyecto-autoestima\autoconcep.gif");
-            pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
-            autoText = label1.Text;
+            mainLabels = new Label[2];
+            originalTexts = new string[2];
+            originalTexts[0] = label1.Text;
+            originalTexts[1] = label2.Text;
             label1.Text = "";
-            timer1.Enabled = true;
-            autoText=label2.Text;
             label2.Text = "";
+            mainLabels[0] = label1;
+            mainLabels[1] = label2;
+            timer1.Enabled = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -52,13 +57,14 @@ namespace Proyecto_1._1
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int currentLength = label2.Text.Length;
-            label1.Text += autoText[currentLength];
-            
-            label2.Text += autoText[currentLength];
-            if (label1.Text == autoText)
+            int currentLength1 = mainLabels[labelCount].Text.Length;
+            mainLabels[labelCount].Text += originalTexts[labelCount][currentLength1];
+            if (mainLabels[labelCount].Text == originalTexts[labelCount])
             {
                 timer1.Stop();
+                labelCount += 1;
+                if (labelCount == mainLabels.Length) return;
+                timer1.Start();
             }
         }
     }

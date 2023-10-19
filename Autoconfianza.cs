@@ -12,7 +12,7 @@ namespace Proyecto_1._1
 {
     public partial class Autoconfianza : Form
     {
-        private menu menu=null;
+        private menu menu = null;
         private consejos_autocon consejos_Autocon = null;
         private Autoconfianza autoconfianza = null;
         //private string autoText1 = "";

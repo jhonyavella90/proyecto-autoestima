@@ -28,9 +28,6 @@ namespace Proyecto_1._1
             autoText = label1.Text;
             label1.Text = "";
             timer1.Enabled = true;
-            pictureBox1.Image = Image.FromFile(@"C:\Users\Usuario\source\repos\proyecto-autoestima\tituloacep.gif");
-            pictureBox1.SizeMode=PictureBoxSizeMode.StretchImage;
-            
         }
 
         private void button1_Click(object sender, EventArgs e)
