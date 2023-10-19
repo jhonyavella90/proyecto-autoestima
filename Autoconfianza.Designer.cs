@@ -103,7 +103,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::Proyecto_1._1.Properties.Resources.titulo_autoconfianza_gif;
+            this.pictureBox1.Image = global::Proyecto_1._1.Properties.Resources.titulo_autoconfianza;
             this.pictureBox1.Location = new System.Drawing.Point(276, 7);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";

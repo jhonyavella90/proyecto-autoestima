@@ -282,6 +282,12 @@
     <None Include="Resources\76.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\inicio_eleva_tu_ser.gif" />
+    <None Include="Resources\titulo_percepciones.gif" />
+    <None Include="Resources\titulo_autoestima.gif" />
+    <None Include="Resources\titulo_autoconfianza.gif" />
+    <None Include="Resources\titulo_autoconcepto.gif" />
+    <None Include="Resources\titulo_aceptacion_social.gif" />
     <None Include="Resources\Hasta_que_podamos_volver_a_vernos__1_-removebg-preview.png" />
     <None Include="Resources\Hasta_que_podamos_volver_a_vernos-removebg-preview.png" />
     <None Include="Resources\Percepciones-15-10-2023 %281%29.png" />
@@ -341,7 +347,6 @@
     <None Include="Resources\autoconcepto__2_-removebg-preview %281%29.png" />
     <None Include="Resources\boton_juegos.png" />
     <None Include="Resources\cartel_1_vacio.png" />
-    <None Include="Resources\titulo_autoconfianza_gif.gif" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <None Include="Resources\fondo_juegos.png" />
