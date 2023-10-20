@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_1._1
 {
-    partial class Form1
+    partial class juego_topo
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -109,7 +109,7 @@
             this.iniciar_topo.UseVisualStyleBackColor = true;
             this.iniciar_topo.Click += new System.EventHandler(this.iniciar_topo_Click);
             // 
-            // Form1
+            // juego_topo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,9 +122,9 @@
             this.Controls.Add(this.lblMiss);
             this.Controls.Add(this.lblHit);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "juego_topo";
+            this.Text = "Juego Topo";
+            this.Load += new System.EventHandler(this.juego_topo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Mole)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -22,13 +22,11 @@ namespace Proyecto_1._1
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void inicio_Load(object sender, EventArgs e)
         {
             form2 = new concepto_proyecto();
             form3 = new creditos();
             form_juegos = new juegos();
-            
         }
 
         private void button1_Click(object sender, EventArgs e)

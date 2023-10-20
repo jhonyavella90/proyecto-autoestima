@@ -10,10 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_1._1
 {
-    public partial class Form1 : Form
+    public partial class juego_topo : Form
     {
         private juegos _juegos = null;
-        private Form1 form1 = null;
 
         Random rnd = new Random();
         int locationNum = 0;
@@ -74,7 +73,7 @@ namespace Proyecto_1._1
             return randomNumber;
         }
 
-        public Form1()
+        public juego_topo()
         {
             InitializeComponent();
         }
@@ -113,10 +112,9 @@ namespace Proyecto_1._1
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void juego_topo_Load(object sender, EventArgs e)
         {
             _juegos = new juegos();
-            form1 = new Form1();
         }
 
         private void button1_Click(object sender, EventArgs e)

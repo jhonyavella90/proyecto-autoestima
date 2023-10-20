@@ -12,7 +12,7 @@ namespace Proyecto_1._1
 {
     public partial class juegos : Form
     {
-        private Form1 form_topo = null;
+        private juego_topo form_topo = null;
         private inicio Inicio = null;
         public juegos()
         {
@@ -21,7 +21,7 @@ namespace Proyecto_1._1
 
         private void juegos_Load(object sender, EventArgs e)
         {
-            form_topo = new Form1();
+            form_topo = new juego_topo();
             Inicio = new inicio();
         }
 
