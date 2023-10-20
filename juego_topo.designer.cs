@@ -124,6 +124,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "juego_topo";
             this.Text = "Juego Topo";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.juego_topo_FormClosing);
             this.Load += new System.EventHandler(this.juego_topo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Mole)).EndInit();
             this.ResumeLayout(false);

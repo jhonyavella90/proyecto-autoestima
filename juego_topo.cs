@@ -132,5 +132,10 @@ namespace Proyecto_1._1
             isHit = false;
             timer1.Start();
         }
+
+        private void juego_topo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (timer1.Enabled) timer1.Stop();
+        }
     }
 }
