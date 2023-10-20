@@ -12,9 +12,8 @@ namespace Proyecto_1._1
 {
     public partial class Autoconcepto : Form
     {
-        private Autoconcepto autoconcepto = null;
         private menu menu = null;   
-        private consejos_autocon consejos_Autocon = null;
+        private consejos_autoconcepto consejos_Autoconcepto = null;
         //private string autoText = "";
         private Label[] mainLabels;
         private string[] originalTexts;
@@ -28,9 +27,8 @@ namespace Proyecto_1._1
 
         private void Autoconcepto_Load(object sender, EventArgs e)
         {
-            autoconcepto = new Autoconcepto();
-            menu = new menu();  
-            consejos_Autocon = new consejos_autocon();
+            menu = new menu();
+            consejos_Autoconcepto = new consejos_autoconcepto();
             mainLabels = new Label[2];
             originalTexts = new string[2];
             originalTexts[0] = label1.Text;
@@ -51,8 +49,7 @@ namespace Proyecto_1._1
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            consejos_Autocon.Show();
-            consejos_Autocon.Show();
+            consejos_Autoconcepto.Show();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
