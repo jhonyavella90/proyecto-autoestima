@@ -300,6 +300,10 @@
     <None Include="Resources\76.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Resiste-al-fracaso-20-10-2023.png" />
+    <None Include="Resources\Sabe-Divertirse-20-10-2023.png" />
+    <None Include="Resources\La-autoestima-es-la-cura-para-20-10-2023.png" />
+    <None Include="Resources\indicacion2__1_-removebg-preview %281%29.png" />
     <None Include="Resources\Mejora-tu-aspecto-fisico-20-10-2023.png" />
     <None Include="Resources\Vitaminas-para-el-amor-propio-20-10-2023.png" />
     <None Include="Resources\Vitaminas-para-el-amor-propio-20-10-2023 %281%291.gif" />
@@ -392,6 +396,9 @@
     <None Include="Resources\cartel_1_vacio.png" />
     <None Include="Resources\Autoestima.gif" />
     <None Include="Resources\Br-ndate-apoyo-20-10-2023.png" />
+    <None Include="Resources\consejos 21.jpg" />
+    <None Include="Resources\Cuida-su-Cuerpo-20-10-2023.png" />
+    <None Include="Resources\Cree-en-si-mismo-20-10-2023.png" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <None Include="Resources\fondo_juegos.png" />
@@ -399,6 +406,11 @@
     <None Include="Resources\Desarrolla-la-empatia-20-10-2023.png" />
     <None Include="Resources\Deja-de-criticarte-20-10-2023.png" />
     <None Include="Resources\El-giate-20-10-2023.png" />
+    <None Include="Resources\Ejerce-Liderazgo-20-10-2023.png" />
+    <None Include="Resources\Es-Compasiva-20-10-2023.png" />
+    <None Include="Resources\Disfruta-Su-Vida-20-10-2023.png" />
+    <None Include="Resources\Explora-lo-nuevo-20-10-2023.png" />
+    <None Include="Resources\Disfruta-su-vida-20-10-2023 %281%29.png" />
     <Content Include="Resources\ground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

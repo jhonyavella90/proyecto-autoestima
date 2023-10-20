@@ -39,12 +39,16 @@
             this.pictureBox_apoyo = new System.Windows.Forms.PictureBox();
             this.pictureBox_aceptate = new System.Windows.Forms.PictureBox();
             this.timer_single_image = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_ascpecto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_empatia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_sincritica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_elogio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_apoyo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_aceptate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -83,6 +87,8 @@
             // 
             this.boton_curitas.BackColor = System.Drawing.Color.Transparent;
             this.boton_curitas.FlatAppearance.BorderSize = 0;
+            this.boton_curitas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_curitas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_curitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_curitas.Location = new System.Drawing.Point(564, 434);
             this.boton_curitas.Name = "boton_curitas";
@@ -162,6 +168,28 @@
             this.timer_single_image.Interval = 300;
             this.timer_single_image.Tick += new System.EventHandler(this.timer_single_image_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.indicacion2__1__removebg_preview__1_;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(691, 381);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(188, 131);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::Proyecto_1._1.Properties.Resources.La_autoestima_es_la_cura_para_20_10_2023;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(181, -33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1004, 183);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
             // consejos_autoconcepto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,6 +197,7 @@
             this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.consejos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1308, 729);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox_aceptate);
             this.Controls.Add(this.pictureBox_apoyo);
             this.Controls.Add(this.pictureBox_elogio);
@@ -178,6 +207,7 @@
             this.Controls.Add(this.boton_curitas);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox2);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoubleBuffered = true;
             this.Name = "consejos_autoconcepto";
@@ -191,6 +221,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_elogio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_apoyo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_aceptate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -207,5 +239,7 @@
         private System.Windows.Forms.PictureBox pictureBox_apoyo;
         private System.Windows.Forms.PictureBox pictureBox_aceptate;
         private System.Windows.Forms.Timer timer_single_image;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

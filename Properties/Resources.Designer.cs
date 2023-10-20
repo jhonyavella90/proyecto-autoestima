@@ -583,6 +583,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap consejos_21 {
+            get {
+                object obj = ResourceManager.GetObject("consejos 21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap consejos_3 {
             get {
                 object obj = ResourceManager.GetObject("consejos 3", resourceCulture);
@@ -606,6 +616,26 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Creditos_13_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Creditos-13-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cree_en_si_mismo_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Cree-en-si-mismo-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cuida_su_Cuerpo_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Cuida-su-Cuerpo-20-10-2023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,6 +673,36 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Disfruta_Su_Vida_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Disfruta-Su-Vida-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Disfruta_su_vida_20_10_2023__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Disfruta-su-vida-20-10-2023 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ejerce_Liderazgo_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Ejerce-Liderazgo-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap El_giate_20_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("El-giate-20-10-2023", resourceCulture);
@@ -666,6 +726,26 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Eleva_Tu_Ser_19_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Eleva-Tu-Ser-19-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Es_Compasiva_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Es-Compasiva-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Explora_lo_nuevo_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Explora-lo-nuevo-20-10-2023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -813,6 +893,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap indicacion2__1__removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("indicacion2__1_-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap indicacion2_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("indicacion2-removebg-preview", resourceCulture);
@@ -886,6 +976,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap Jugar_preguntas_19_10_20231 {
             get {
                 object obj = ResourceManager.GetObject("Jugar-preguntas-19-10-20231", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap La_autoestima_es_la_cura_para_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("La-autoestima-es-la-cura-para-20-10-2023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1266,6 +1366,26 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap recurso_fondo_2__5_ {
             get {
                 object obj = ResourceManager.GetObject("recurso fondo 2 (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Resiste_al_fracaso_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Resiste-al-fracaso-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sabe_Divertirse_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Sabe-Divertirse-20-10-2023", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

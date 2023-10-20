@@ -54,5 +54,11 @@ namespace Proyecto_1._1
                     timer1.Stop();
                 }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            concejos_Acep_Social.Show();
+        }
     }
 }
