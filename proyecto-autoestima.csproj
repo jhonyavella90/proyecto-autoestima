@@ -411,6 +411,7 @@
     <None Include="Resources\Disfruta-Su-Vida-20-10-2023.png" />
     <None Include="Resources\Explora-lo-nuevo-20-10-2023.png" />
     <None Include="Resources\Disfruta-su-vida-20-10-2023 %281%29.png" />
+    <None Include="Resources\Eleva-tu-ser-20-10-2023.png" />
     <Content Include="Resources\ground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

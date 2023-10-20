@@ -733,6 +733,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Eleva_tu_ser_20_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Eleva-tu-ser-20-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Es_Compasiva_20_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Es-Compasiva-20-10-2023", resourceCulture);
