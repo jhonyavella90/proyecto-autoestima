@@ -98,9 +98,9 @@
             this.boton_memoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_memoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_memoria.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_memoria.Location = new System.Drawing.Point(849, 147);
+            this.boton_memoria.Location = new System.Drawing.Point(834, 141);
             this.boton_memoria.Name = "boton_memoria";
-            this.boton_memoria.Size = new System.Drawing.Size(251, 60);
+            this.boton_memoria.Size = new System.Drawing.Size(340, 85);
             this.boton_memoria.TabIndex = 7;
             this.boton_memoria.UseVisualStyleBackColor = false;
             this.boton_memoria.Click += new System.EventHandler(this.boton_memoria_Click);

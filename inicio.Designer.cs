@@ -92,7 +92,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Eleva_Tu_Ser_13_10_2023__1_;
+            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Eleva_Tu_Ser_19_10_2023;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(37, 83);
             this.pictureBox1.Name = "pictureBox1";
