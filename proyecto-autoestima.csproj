@@ -300,6 +300,10 @@
     <None Include="Resources\76.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Jugar-memoria-19-10-2023.png" />
+    <None Include="Resources\Jugar-preguntas-19-10-20231.png" />
+    <None Include="Resources\Jugar-preguntas-19-10-2023.png" />
+    <None Include="Resources\Jugar-Atrapa-el-topo-19-10-2023.png" />
     <None Include="Resources\memoria_start.png" />
     <None Include="Resources\memoria_img8.jpeg" />
     <None Include="Resources\memoria_img7.jpeg" />

@@ -773,6 +773,46 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Jugar_Atrapa_el_topo_19_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Jugar-Atrapa-el-topo-19-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jugar_memoria_19_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Jugar-memoria-19-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jugar_preguntas_19_10_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Jugar-preguntas-19-10-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jugar_preguntas_19_10_20231 {
+            get {
+                object obj = ResourceManager.GetObject("Jugar-preguntas-19-10-20231", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap memoria_53 {
             get {
                 object obj = ResourceManager.GetObject("memoria_53", resourceCulture);
