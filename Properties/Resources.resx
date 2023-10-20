@@ -424,4 +424,37 @@
   <data name="quiz_question" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\quiz_question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="memoria_53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_girada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_girada.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img6.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img7.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_img8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_img8.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoria_start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoria_start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

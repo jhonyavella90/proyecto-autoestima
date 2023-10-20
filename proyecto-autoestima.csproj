@@ -106,6 +106,12 @@
     <Compile Include="creditos.Designer.cs">
       <DependentUpon>creditos.cs</DependentUpon>
     </Compile>
+    <Compile Include="juego_memoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juego_memoria.designer.cs">
+      <DependentUpon>juego_memoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="juegos_preguntas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="creditos.resx">
       <DependentUpon>creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juego_memoria.resx">
+      <DependentUpon>juego_memoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="juegos_preguntas.resx">
       <DependentUpon>juegos_preguntas.cs</DependentUpon>
@@ -291,6 +300,17 @@
     <None Include="Resources\76.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\memoria_start.png" />
+    <None Include="Resources\memoria_img8.jpeg" />
+    <None Include="Resources\memoria_img7.jpeg" />
+    <None Include="Resources\memoria_img6.jpeg" />
+    <None Include="Resources\memoria_img5.jpeg" />
+    <None Include="Resources\memoria_img4.jpeg" />
+    <None Include="Resources\memoria_img3.jpeg" />
+    <None Include="Resources\memoria_img2.jpeg" />
+    <None Include="Resources\memoria_img1.jpeg" />
+    <None Include="Resources\memoria_girada.jpeg" />
+    <None Include="Resources\memoria_53.png" />
     <None Include="Resources\inicio_eleva_tu_ser.gif" />
     <None Include="Resources\titulo_percepciones.gif" />
     <None Include="Resources\titulo_autoestima.gif" />

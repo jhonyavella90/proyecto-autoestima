@@ -31,7 +31,7 @@
             this.boton_volver = new System.Windows.Forms.Button();
             this.boton_topo = new System.Windows.Forms.Button();
             this.boton_preguntas = new System.Windows.Forms.Button();
-            this.boton_juego3 = new System.Windows.Forms.Button();
+            this.boton_memoria = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // boton_volver
@@ -92,24 +92,25 @@
             this.boton_preguntas.UseVisualStyleBackColor = false;
             this.boton_preguntas.Click += new System.EventHandler(this.boton_preguntas_Click);
             // 
-            // boton_juego3
+            // boton_memoria
             // 
-            this.boton_juego3.BackColor = System.Drawing.Color.Transparent;
-            this.boton_juego3.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_juegos;
-            this.boton_juego3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.boton_juego3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.boton_juego3.FlatAppearance.BorderSize = 0;
-            this.boton_juego3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.boton_juego3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.boton_juego3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton_juego3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_juego3.Location = new System.Drawing.Point(478, 478);
-            this.boton_juego3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.boton_juego3.Name = "boton_juego3";
-            this.boton_juego3.Size = new System.Drawing.Size(364, 86);
-            this.boton_juego3.TabIndex = 7;
-            this.boton_juego3.Text = "Jugar \"Juego 3\"";
-            this.boton_juego3.UseVisualStyleBackColor = false;
+            this.boton_memoria.BackColor = System.Drawing.Color.Transparent;
+            this.boton_memoria.BackgroundImage = global::Proyecto_1._1.Properties.Resources.boton_juegos;
+            this.boton_memoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_memoria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_memoria.FlatAppearance.BorderSize = 0;
+            this.boton_memoria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.boton_memoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.boton_memoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_memoria.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boton_memoria.Location = new System.Drawing.Point(478, 478);
+            this.boton_memoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.boton_memoria.Name = "boton_memoria";
+            this.boton_memoria.Size = new System.Drawing.Size(364, 86);
+            this.boton_memoria.TabIndex = 7;
+            this.boton_memoria.Text = "Jugar \"Memoria\"";
+            this.boton_memoria.UseVisualStyleBackColor = false;
+            this.boton_memoria.Click += new System.EventHandler(this.boton_memoria_Click);
             // 
             // juegos
             // 
@@ -118,7 +119,7 @@
             this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.fondo_juegos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1284, 782);
-            this.Controls.Add(this.boton_juego3);
+            this.Controls.Add(this.boton_memoria);
             this.Controls.Add(this.boton_preguntas);
             this.Controls.Add(this.boton_topo);
             this.Controls.Add(this.boton_volver);
@@ -136,6 +137,6 @@
         private System.Windows.Forms.Button boton_volver;
         private System.Windows.Forms.Button boton_topo;
         private System.Windows.Forms.Button boton_preguntas;
-        private System.Windows.Forms.Button boton_juego3;
+        private System.Windows.Forms.Button boton_memoria;
     }
 }

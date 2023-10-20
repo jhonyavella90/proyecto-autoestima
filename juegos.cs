@@ -14,6 +14,7 @@ namespace Proyecto_1._1
     {
         private juego_topo form_topo = null;
         private juego_preguntas form_preguntas = null;
+        private juego_memoria form_memoria = null;
         private inicio Inicio = null;
         public juegos()
         {
@@ -24,6 +25,7 @@ namespace Proyecto_1._1
         {
             form_topo = new juego_topo();
             form_preguntas = new juego_preguntas();
+            form_memoria = new juego_memoria();
             Inicio = new inicio();
         }
 
@@ -43,6 +45,12 @@ namespace Proyecto_1._1
         {
             this.Hide();
             form_preguntas.Show();
+        }
+
+        private void boton_memoria_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_memoria.Show();
         }
     }
 }
