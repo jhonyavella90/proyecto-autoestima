@@ -348,6 +348,8 @@
     <None Include="Resources\Aceptaci-n-Social-15-10-2023.png" />
     <None Include="Resources\Aceptaci-n-Social-15-10-2023 %281%29.png" />
     <None Include="Resources\aceptacion_social-removebg-preview.png" />
+    <None Include="Resources\51 %281%29.png" />
+    <None Include="Resources\53.png" />
     <Content Include="Resources\alive.png" />
     <None Include="Resources\Creditos-13-10-2023.png" />
     <None Include="Resources\boton_menu-removebg-preview.png" />
@@ -376,6 +378,7 @@
     <None Include="Resources\autoconcepto__2_-removebg-preview %281%29.png" />
     <None Include="Resources\boton_juegos.png" />
     <None Include="Resources\cartel_1_vacio.png" />
+    <None Include="Resources\Autoestima.gif" />
     <Content Include="Resources\dead.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <None Include="Resources\fondo_juegos.png" />

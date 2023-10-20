@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Cuando hablamos de amor propio, nos referimos 
+al grado de aceptación, respeto y consideración
+que sentimos para con nosotros mismos. 
+Esta aplicación buscara ser un material educativo
+computarizado que ayuda a promover y agrupar
+ los conceptos básicos y conocimientos
+sobre el autoestima el los estudiantes de grados 
+8° y 9° del Coloegio Guillermo León Valencia</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

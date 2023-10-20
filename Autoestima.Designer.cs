@@ -67,7 +67,7 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1101, 6);
+            this.button2.Location = new System.Drawing.Point(1090, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(181, 104);
             this.button2.TabIndex = 1;
@@ -83,7 +83,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Forte", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(66, 36);
+            this.label1.Location = new System.Drawing.Point(57, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(33, 32, 33, 32);
@@ -98,7 +98,7 @@
             this.panel1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.cartel_1_vacio;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(60, 157);
+            this.panel1.Location = new System.Drawing.Point(386, 194);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(747, 455);
@@ -107,9 +107,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(244, 12);
+            this.pictureBox1.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Autoestima1;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(494, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(475, 98);
+            this.pictureBox1.Size = new System.Drawing.Size(563, 140);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -117,7 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Autoestima;
+            this.BackgroundImage = global::Proyecto_1._1.Properties.Resources._51__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1283, 690);
             this.Controls.Add(this.pictureBox1);
