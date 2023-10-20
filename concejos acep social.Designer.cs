@@ -184,6 +184,7 @@
             this.boton_corazon.Size = new System.Drawing.Size(180, 193);
             this.boton_corazon.TabIndex = 10;
             this.boton_corazon.UseVisualStyleBackColor = false;
+            this.boton_corazon.Click += new System.EventHandler(this.boton_corazon_Click);
             // 
             // timer_single_image
             // 

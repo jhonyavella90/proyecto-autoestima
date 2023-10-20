@@ -28,8 +28,8 @@ namespace Proyecto_1._1
         {
             aceptacion_Social = new aceptacion_social();
             menu = new menu();
-            pictureBoxes = new PictureBox[6];
-            pictureBoxesImgOrig = new Image[6];
+            pictureBoxes = new PictureBox[8];
+            pictureBoxesImgOrig = new Image[8];
             pictureBoxes[0] = pictureBox_liderazgo;
             pictureBoxes[1] = pictureBox_compasivo;
             pictureBoxes[2] = pictureBox_vida;
@@ -101,6 +101,12 @@ namespace Proyecto_1._1
             }
 
             pictureBox.Image = bmp;
+        }
+
+        private void boton_corazon_Click(object sender, EventArgs e)
+        {
+            boton_corazon.Enabled = false;
+            timer_single_image.Start();
         }
     }
 }
