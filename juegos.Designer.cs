@@ -88,7 +88,7 @@
             this.boton_preguntas.Name = "boton_preguntas";
             this.boton_preguntas.Size = new System.Drawing.Size(364, 86);
             this.boton_preguntas.TabIndex = 6;
-            this.boton_preguntas.Text = "Jugar \"Quiz\"";
+            this.boton_preguntas.Text = "Jugar \"Preguntas\"";
             this.boton_preguntas.UseVisualStyleBackColor = false;
             this.boton_preguntas.Click += new System.EventHandler(this.boton_preguntas_Click);
             // 
