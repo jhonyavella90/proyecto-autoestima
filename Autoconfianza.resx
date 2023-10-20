@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>la autoconfianza es la creencia 
+    <value>La autoconfianza es la creencia 
 
 en la propia capacidad para lograr
 
@@ -142,17 +142,17 @@ habilidades y criterios.</value>
   <data name="label2.Text" xml:space="preserve">
     <value>La autoconfianza está relacionada
 
-a la creencia de “ser capaz” 
+ a la creencia de “ser capaz” 
 
-de lograr lo que uno se plantea
+   de lograr lo que uno se plantea
 
-o de satisfacer necesidades personales
+  o de satisfacer necesidades personales
 
-o exigencias del entorno. 
+ o exigencias del entorno. 
 
-Se trata de una actitud
+   Se trata de una actitud
 
-mental que permite
+     mental que permite
 
 a las personas afrontar
 
