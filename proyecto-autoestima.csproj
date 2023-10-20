@@ -106,6 +106,12 @@
     <Compile Include="creditos.Designer.cs">
       <DependentUpon>creditos.cs</DependentUpon>
     </Compile>
+    <Compile Include="juegos_preguntas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegos_preguntas.designer.cs">
+      <DependentUpon>juegos_preguntas.cs</DependentUpon>
+    </Compile>
     <Compile Include="juego_topo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="creditos.resx">
       <DependentUpon>creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegos_preguntas.resx">
+      <DependentUpon>juegos_preguntas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="juego_topo.resx">
       <DependentUpon>juego_topo.cs</DependentUpon>

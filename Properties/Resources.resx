@@ -400,4 +400,28 @@
   <data name="titulo_percepciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\titulo_percepciones.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="quiz_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_aceptacion_social" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_aceptacion social.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_autoconcepto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_autoconcepto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_autoconfianza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_autoconfianza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_autoestima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_autoestima.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_percepciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_percepciones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_proyecto_de_grado_5_removebg_preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_proyecto_de_grado_5_removebg_preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="quiz_question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quiz_question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
