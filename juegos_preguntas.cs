@@ -122,10 +122,10 @@ namespace Proyecto_1._1
                 case 8:
                     pictureBox1.Image = Properties.Resources.quiz_question;
                     lblQuestion.Text = "Que caracteriza a la autoestima?";
-                    button1.Text = "Birmingham";
-                    button2.Text = "Brighton";
-                    button3.Text = "Liverpool";
-                    button4.Text = "London";
+                    button1.Text = "Aceptación";
+                    button2.Text = "Confianza";
+                    button3.Text = "Respeto";
+                    button4.Text = "Risa";
                     correctAnswer = 4;
                     break;
             }

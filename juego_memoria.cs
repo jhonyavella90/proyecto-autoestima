@@ -162,6 +162,7 @@ namespace Proyecto_1._1
         private void juego_memoria_Load(object sender, EventArgs e)
         {
             _juegos = new juegos();
+            if (timer1.Enabled) timer1.Stop();
         }
 
         private void boton_volver_Click(object sender, EventArgs e)
@@ -169,5 +170,8 @@ namespace Proyecto_1._1
             this.Hide();
             _juegos.Show();
         }
+
+
+
     }
 }

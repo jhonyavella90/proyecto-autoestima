@@ -70,7 +70,7 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(1115, 2);
+            this.button2.Location = new System.Drawing.Point(1085, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(167, 91);
             this.button2.TabIndex = 1;
@@ -100,7 +100,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(875, 118);
+            this.panel2.Location = new System.Drawing.Point(848, 118);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(417, 520);
             this.panel2.TabIndex = 3;
@@ -109,7 +109,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Book Antiqua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 24);
+            this.label2.Location = new System.Drawing.Point(14, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(363, 420);
             this.label2.TabIndex = 0;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.autoconcepto1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1283, 690);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

@@ -81,7 +81,7 @@
             this.boton_de_juegos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.boton_de_juegos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_de_juegos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.boton_de_juegos.Location = new System.Drawing.Point(823, 159);
+            this.boton_de_juegos.Location = new System.Drawing.Point(772, 160);
             this.boton_de_juegos.Margin = new System.Windows.Forms.Padding(2);
             this.boton_de_juegos.Name = "boton_de_juegos";
             this.boton_de_juegos.Size = new System.Drawing.Size(492, 178);
@@ -106,7 +106,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Proyecto_1._1.Properties.Resources.inicio;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1308, 729);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.boton_creditos);
             this.Controls.Add(this.boton_inicio);
