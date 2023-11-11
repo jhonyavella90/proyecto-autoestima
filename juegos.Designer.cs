@@ -54,7 +54,7 @@
             // boton_topo
             // 
             this.boton_topo.BackColor = System.Drawing.Color.Transparent;
-            this.boton_topo.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Jugar_Atrapa_el_topo_19_10_2023;
+            this.boton_topo.BackgroundImage = global::Proyecto_1._1.Properties.Resources.Jugar_Atrapa_tus_emociones_10_11_2023;
             this.boton_topo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.boton_topo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.boton_topo.FlatAppearance.BorderSize = 0;
@@ -62,9 +62,9 @@
             this.boton_topo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.boton_topo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.boton_topo.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boton_topo.Location = new System.Drawing.Point(164, 156);
+            this.boton_topo.Location = new System.Drawing.Point(87, 152);
             this.boton_topo.Name = "boton_topo";
-            this.boton_topo.Size = new System.Drawing.Size(344, 98);
+            this.boton_topo.Size = new System.Drawing.Size(413, 121);
             this.boton_topo.TabIndex = 5;
             this.boton_topo.UseVisualStyleBackColor = false;
             this.boton_topo.Click += new System.EventHandler(this.boton_topo_Click);

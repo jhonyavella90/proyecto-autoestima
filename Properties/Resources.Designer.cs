@@ -983,6 +983,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Jugar_Atrapa_tus_emociones_10_11_2023 {
+            get {
+                object obj = ResourceManager.GetObject("Jugar-Atrapa-tus-emociones-10-11-2023", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Jugar_memoria_19_10_2023 {
             get {
                 object obj = ResourceManager.GetObject("Jugar-memoria-19-10-2023", resourceCulture);
