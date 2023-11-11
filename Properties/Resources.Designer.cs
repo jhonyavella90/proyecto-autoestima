@@ -103,6 +103,16 @@ namespace Proyecto_1._1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _46_466452_s {
+            get {
+                object obj = ResourceManager.GetObject("46-466452_s", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _51__1_ {
             get {
                 object obj = ResourceManager.GetObject("51 (1)", resourceCulture);
@@ -246,6 +256,16 @@ namespace Proyecto_1._1.Properties {
         internal static System.Drawing.Bitmap alive {
             get {
                 object obj = ResourceManager.GetObject("alive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap alive2 {
+            get {
+                object obj = ResourceManager.GetObject("alive2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -25,7 +25,6 @@ namespace Proyecto_1._1
             Mole.Enabled = true;
             Mole.Image = Properties.Resources.alive;
             Mole.BackColor = System.Drawing.Color.Transparent;
-            locationNum = PickRandomNumber();
             switch (locationNum)
             {
                 case 1:
@@ -57,21 +56,7 @@ namespace Proyecto_1._1
             }
         }
 
-        private int PickRandomNumber()
-        {
-            // Create a list of all possible numbers.
-            List<int> possibleNumbers = new List<int>();
-            for (int i = 1; i <= 6; i++)
-            {
-                if (i != locationNum)
-                {
-                    possibleNumbers.Add(i);
-                }
-            }
-            // Pick a random number from the list of possible numbers.
-            int randomNumber = possibleNumbers[rnd.Next(possibleNumbers.Count)];
-            return randomNumber;
-        }
+       
 
         public juego_topo()
         {

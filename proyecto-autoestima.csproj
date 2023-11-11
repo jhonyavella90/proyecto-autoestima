@@ -366,6 +366,7 @@
     <None Include="Resources\51 %281%29.png" />
     <None Include="Resources\53.png" />
     <None Include="Resources\Ac-ptate-20-10-2023.png" />
+    <None Include="Resources\46-466452_s.jpg" />
     <Content Include="Resources\alive.png" />
     <None Include="Resources\Creditos-13-10-2023.png" />
     <None Include="Resources\boton_menu-removebg-preview.png" />
@@ -399,7 +400,7 @@
     <None Include="Resources\consejos 21.jpg" />
     <None Include="Resources\Cuida-su-Cuerpo-20-10-2023.png" />
     <None Include="Resources\Cree-en-si-mismo-20-10-2023.png" />
-    <Content Include="Resources\dead.png" />
+    <None Include="Resources\alive1.png" />
     <None Include="Resources\Eleva-Tu-Ser-13-10-2023 %281%29.png" />
     <None Include="Resources\fondo_juegos.png" />
     <None Include="Resources\Eleva-Tu-Ser-19-10-2023.gif" />
@@ -412,6 +413,7 @@
     <None Include="Resources\Explora-lo-nuevo-20-10-2023.png" />
     <None Include="Resources\Disfruta-su-vida-20-10-2023 %281%29.png" />
     <None Include="Resources\Eleva-tu-ser-20-10-2023.png" />
+    <None Include="Resources\dead.png" />
     <Content Include="Resources\ground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

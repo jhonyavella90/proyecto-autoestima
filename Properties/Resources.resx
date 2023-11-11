@@ -154,9 +154,6 @@
   <data name="Autoconfianza-15-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Autoconfianza-15-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="46" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="La-autoestima-es-la-cura-para-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\La-autoestima-es-la-cura-para-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -180,6 +177,9 @@
   </data>
   <data name="inicio_eleva_tu_ser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\inicio_eleva_tu_ser.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46-466452_s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46-466452_s.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="autoconcepto__2_-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\autoconcepto__2_-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,14 +328,17 @@
   <data name="Br-ndate-apoyo-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Br-ndate-apoyo-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="boton_menu__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boton_menu__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Vitaminas-para-el-amor-propio-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vitaminas-para-el-amor-propio-20-10-2023.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG-20231014-WA0041-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG-20231014-WA0041-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="73" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cree-en-si-mismo-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cree-en-si-mismo-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hasta_que_podamos_volver_a_vernos-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hasta_que_podamos_volver_a_vernos-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -346,7 +349,7 @@
   <data name="Tarjeta_agradecimiento_orgánica_rojo_verde__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tarjeta_agradecimiento_orgánica_rojo_verde__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="alive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="alive2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Autoconfianza-13-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -427,9 +430,6 @@
   <data name="El-giate-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\El-giate-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cree-en-si-mismo-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cree-en-si-mismo-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="71" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -493,8 +493,8 @@
   <data name="Disfruta-su-vida-20-10-2023 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Disfruta-su-vida-20-10-2023 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Presentación1-removebg-preview (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Presentación1-removebg-preview (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG-20231014-WA0042-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG-20231014-WA0042-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -507,6 +507,9 @@
   </data>
   <data name="Resiste-al-fracaso-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Resiste-al-fracaso-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="73" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Autoestima1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Autoestima.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -532,14 +535,17 @@
   <data name="aceptacion_social-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aceptacion_social-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boton_menu__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boton_menu__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Presentación1-removebg-preview (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Presentación1-removebg-preview (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="recurso fondo 2 (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\recurso fondo 2 (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eleva-tu-ser-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eleva-tu-ser-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Autoconcepto-15-10-2023 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Autoconcepto-15-10-2023 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -553,7 +559,7 @@
   <data name="memoria_img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\memoria_img4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Eleva-tu-ser-20-10-2023" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Eleva-tu-ser-20-10-2023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="alive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alive1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

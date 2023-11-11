@@ -42,10 +42,10 @@
             // 
             this.lblHit.AutoSize = true;
             this.lblHit.BackColor = System.Drawing.Color.Transparent;
-            this.lblHit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHit.Location = new System.Drawing.Point(652, 24);
+            this.lblHit.Font = new System.Drawing.Font("Ravie", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHit.Location = new System.Drawing.Point(915, 17);
             this.lblHit.Name = "lblHit";
-            this.lblHit.Size = new System.Drawing.Size(44, 25);
+            this.lblHit.Size = new System.Drawing.Size(78, 34);
             this.lblHit.TabIndex = 0;
             this.lblHit.Text = "Hit:";
             // 
@@ -53,10 +53,10 @@
             // 
             this.lblMiss.AutoSize = true;
             this.lblMiss.BackColor = System.Drawing.Color.Transparent;
-            this.lblMiss.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMiss.Location = new System.Drawing.Point(652, 85);
+            this.lblMiss.Font = new System.Drawing.Font("Ravie", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMiss.Location = new System.Drawing.Point(915, 78);
             this.lblMiss.Name = "lblMiss";
-            this.lblMiss.Size = new System.Drawing.Size(63, 25);
+            this.lblMiss.Size = new System.Drawing.Size(104, 34);
             this.lblMiss.TabIndex = 1;
             this.lblMiss.Text = "Miss:";
             // 
@@ -90,20 +90,26 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 45);
+            this.button1.Size = new System.Drawing.Size(134, 78);
             this.button1.TabIndex = 3;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // iniciar_topo
             // 
-            this.iniciar_topo.Location = new System.Drawing.Point(121, 24);
+            this.iniciar_topo.BackColor = System.Drawing.Color.Transparent;
+            this.iniciar_topo.BackgroundImage = global::Proyecto_1._1.Properties.Resources.memoria_start;
+            this.iniciar_topo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.iniciar_topo.FlatAppearance.BorderSize = 0;
+            this.iniciar_topo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.iniciar_topo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.iniciar_topo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iniciar_topo.Location = new System.Drawing.Point(11, 107);
             this.iniciar_topo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.iniciar_topo.Name = "iniciar_topo";
-            this.iniciar_topo.Size = new System.Drawing.Size(97, 34);
+            this.iniciar_topo.Size = new System.Drawing.Size(190, 92);
             this.iniciar_topo.TabIndex = 4;
-            this.iniciar_topo.Text = "Iniciar Topo";
-            this.iniciar_topo.UseVisualStyleBackColor = true;
+            this.iniciar_topo.UseVisualStyleBackColor = false;
             this.iniciar_topo.Click += new System.EventHandler(this.iniciar_topo_Click);
             // 
             // juego_topo
